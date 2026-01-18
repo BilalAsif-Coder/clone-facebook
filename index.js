@@ -28,11 +28,6 @@ function spaceFunction() {
 
     }
 
-    // else if (emailInput.value == "@") {
-    //     window.location.href = "dash.html"
-
-    // }
-
 
 
 
@@ -99,7 +94,6 @@ function spaceFunction() {
 
 
 
-//   window.location.href = "" ; 
 
 
 

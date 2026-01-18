@@ -19,8 +19,8 @@
           <div class="m-p">It's quick and easy.</div>
           <hr>
           <div class="inputs">
-            <input class="f-n" type="text" placeholder="First name ">
-            <input class="s-n" type="text" placeholder="Surname">
+            <input id="Firstname" class="f-n" type="text" placeholder="First name ">
+            <input id="lastname" class="s-n" type="text" placeholder="Surname">
 
           </div>
           <div class="dob-p">
@@ -30,7 +30,7 @@
           </div>
           <div class="dob-main">
             <label class="dob-label">
-              <select name="dob-day" class="dob-day">
+              <select name="dob-day" class="dob-day"  id="day" >
                 <option value="">Day</option>
                 <option value="">---</option>
                 <option value="01">01</option>
@@ -65,7 +65,7 @@
                 <option value="30">30</option>
                 <option value="31">31</option>
               </select></label>
-            <label class="dob-label"> <select name="dob-month" class="dob-month">
+            <label class="dob-label"> <select name="dob-month" class="dob-month" id="month" >
                 <option value="">Month</option>
                 <option value="">-----</option>
                 <option value="01">January</option>
@@ -81,7 +81,7 @@
                 <option value="11">November</option>
                 <option value="12">December</option>
               </select></label>
-            <label class="dob-label"> <select name="dob-year" class="dob-year">
+            <label class="dob-label"> <select name="dob-year" class="dob-year" id="year">
                 <option value="">Year</option>
                 <option value="">----</option>
                 <option value="2012">2012</option>
@@ -206,25 +206,25 @@
             </div>
             <div class="gender-radio">
               <div class="radio">
-                <label for="">Male</label>
-                <input type="radio" name="gender">
+                <label  for="">Male</label>
+                <input type="radio" name="gender" value="Male">
               </div>
               <div class="radio">
                 <label for="">Female</label>
-                <input type="radio" name="gender">
+                <input type="radio" name="gender" value="Female">
               </div>
               <div class="radio">
-                <label for="">Other</label>
-                <input type="radio">
+                <label  for="">Other</label>
+                <input type="radio" value="Other" name="gender">
               </div>
 
 
             </div>
             <div class="email">
-              <input class="e-input" type="text" placeholder="Moblie number or Email address">
+              <input class="e-input" type="text" placeholder="Moblie number or Email address" id="email">
             </div>
             <div class="pass">
-              <input class="n-p" type="text" placeholder="New password ">
+              <input class="n-p" type="text" placeholder="New password " id="password">
             </div>
             <div class="l-m">
 
@@ -232,17 +232,19 @@
               <span class="p3">People who use our service may have uploaded your contact information to Facebook. <a
                   href="Learn more.">Learn more.</a></span>
             </div>
-             <div class="last-p">
-            <span class="p3"> By clicking Sign Up, you agree to our <a href="Terms, Privacy Policy">Terms, Privacy Policy</a> and <a href="Cookies Policy.">Cookies Policy.</a> You may receive SMS notifications from us and can opt out at any time. </span> 
-             </div>
-             <div class="main-btn">
-             <button class="sign-up">Sign Up</button>
-             </div>
-             <div class="last-last">
+            <div class="last-p">
+              <span class="p3"> By clicking Sign Up, you agree to our <a href="Terms, Privacy Policy">Terms, Privacy
+                  Policy</a> and <a href="Cookies Policy.">Cookies Policy.</a> You may receive SMS notifications from us
+                and can opt out at any time. </span>
+            </div> 
+            <div class="main-btn">
+              <button class="sign-up"  id="signupBtn">Sign Up  </button>
+            </div>
+            <div class="last-last">
               <div class="acc">
                 <a href="Already have an account?">Already have an account?</a>
               </div>
-             </div>
+            </div>
           </div>
         </div>
 
@@ -255,13 +257,14 @@
   </div>
 
   </div>
-  
 
 
 
-   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script src="index.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="index.js"></script>
 
 </body>
+<script src="foam.js"></script>
 
 </html>
