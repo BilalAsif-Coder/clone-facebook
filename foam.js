@@ -34,6 +34,9 @@ let usersData = {
 };
 
 
+console.log(usersData);
+
+
 
 
 
