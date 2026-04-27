@@ -18,7 +18,7 @@ const signupHandler = () => {
     if (firstName.value.trim() === "" || lastName.value.trim() === ""  || day.value.trim() === "" || month.value.trim() === "" || year.value.trim() )  {
 
     }
-
+    
     
 let usersData = {
     firstName: firstName.value,
@@ -32,6 +32,8 @@ let usersData = {
 
 
 };
+
+
 
 
 
@@ -50,6 +52,9 @@ for (let i = 0 ; i < gender.length ; i++) {
 
 
 signUpBtn.addEventListener("click" , signupHandler)
+
+
+console.log()
 
 
 
